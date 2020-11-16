@@ -28,7 +28,10 @@ https://en.wikipedia.org/wiki/John_von_Neumann
 
 ###Ethics & Economics of AI###
 https://media.techhippo.org/wp-content/uploads/2020/11/12114050/Awadetal_MoralMachineExperiment.pdf
-
 https://media.techhippo.org/wp-content/uploads/2020/11/12114042/AutorLevyMurnane_TheSkillContentOfRecentTechnologicalChange.pdf
-
 https://media.techhippo.org/wp-content/uploads/2020/11/12114051/BonnefonShariffRahwan_SocialDilemmaAutonomousVehicles.pdf
+Prediction vs Causality: general problem of spurious correlations that falsely seem to imply causal link between observations
+
+###Two biases of predictions (Prosperi et al., Nature Machine Intelligence, 2020):
+Confounding bias: common cause for both exposure/predictor and outcome. AI would detect that lung cancer comes along with yellow fingers that both result from smoking, but getting normal skin color back does not heal cancer.
+Collider bias: common effect of both exposure and outcome. Hospitalization status functions as a collider because it introduces selection bias, as people with locomotor disease or respiratory disease have a higher risk of being admitted to a hospital, but treating one will not heal the other.
