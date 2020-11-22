@@ -36,3 +36,25 @@ Prediction vs Causality: general problem of spurious correlations that falsely s
 ###Two biases of predictions (Prosperi et al., Nature Machine Intelligence, 2020):
 Confounding bias: common cause for both exposure/predictor and outcome. AI would detect that lung cancer comes along with yellow fingers that both result from smoking, but getting normal skin color back does not heal cancer.
 Collider bias: common effect of both exposure and outcome. Hospitalization status functions as a collider because it introduces selection bias, as people with locomotor disease or respiratory disease have a higher risk of being admitted to a hospital, but treating one will not heal the other.
+
+###NLP###
+natural language processing (NLP). NLP follows the steps below:
+
+Tokenization: splits longer strings of text into smaller pieces, or tokens; larger chunks of text can be tokenized into sentences, sentences can be tokenized into words, etc.
+Normalization: 
+Word Stemming: eliminating affixes (suffixed, prefixes, infixes, circumfixes) from a word to obtain a word stem (infinitive, singular…)
+Lemmatization: capture canonical forms based on a word’s lemma (e.g. better → good)
+Set all characters to lowercase
+Convert numbers to textual representations or vice versa
+Remove punctuation 
+Remove default stop words (articles, conjunctions etc.)
+BERT – Bidirectional Encoder Representations from Transformers
+
+Created and published in 2018 by Jacob Devlin and his colleagues from Google
+Original goal: better understand user searches
+24-layer, 1024-hidden, 16-heads, 340M parameter neural network architecture
+Trained on BookCorpus with 800M words and English Wikipedia with 2,500M words
+Deeply bidirectional, unsupervised language representation
+Takes into account the context for each occurrence of a given word, contextual model that generates a representation of each word that is based on the other words in the sentence
+Not possible to train bidirectional models by simply conditioning each word on its previous and next words, since this would allow the word that’s being predicted to indirectly “see itself” in a multi-layer model
+Solution: mask words and predict them (“Masked Language Modeling”) 
