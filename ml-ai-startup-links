@@ -58,3 +58,6 @@ Deeply bidirectional, unsupervised language representation
 Takes into account the context for each occurrence of a given word, contextual model that generates a representation of each word that is based on the other words in the sentence
 Not possible to train bidirectional models by simply conditioning each word on its previous and next words, since this would allow the word that’s being predicted to indirectly “see itself” in a multi-layer model
 Solution: mask words and predict them (“Masked Language Modeling”) 
+
+###Business Modeling###
+https://medium.com/epitome-of-innovation-and-technology-management/xerox-116185e565e1
