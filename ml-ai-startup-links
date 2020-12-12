@@ -157,4 +157,20 @@ https://www.appsheet.com/
 https://cloud.google.com/automl?hl=de
 https://teachablemachine.withgoogle.com/
 
-
+###ML with python###
+Supervised learining
+- predictive model
+- main methods:
+    1. Classification
+    2. Regression
+    
+Unsupervised learining
+- descriptive model
+- main methods:
+    1. Clustering
+    2. Dimensionality
+    
+Underfitting / Overfitting
+- Underfit - Not making enough use of data, not precise enough
+- optimal
+- overfit - To strong focus on training data, to specific, will fail with new data
