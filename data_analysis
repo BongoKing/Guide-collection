@@ -1,0 +1,92 @@
+https://www.tableau.com/sites/default/files/media/whitepaper_visual-analysis-guidebook_0.pdf
+https://www.tableau.com/sites/default/files/whitepapers/which_chart_or_graph_is_right_for_youwp_1.pdf
+https://help.tableau.com/current/pro/desktop/en-us/datafields_typesandroles.htm
+https://help.tableau.com/current/pro/desktop/en-us/environ_workbooksandsheets.htm
+
+https://trailhead.salesforce.com/de/content/learn/modules/analytics-app-design/structure-your-app
+
+https://alexloth.com/find-important-variables-determining-sales-tableau-r/
+
+#F Pattern
+Im F-Muster werden oben auf dem Dashboard Filter angezeigt, um den Benutzern die Möglichkeit zu geben, Teilmengen der Daten zu erstellen. 
+Die KPIs werden auf der linken Seite des Dashboards angezeigt, gefolgt von einigen Visualisierungen auf der rechten Seite, die die beiden Striche des Buchstabens F bilden. 
+Rechts davon befinden sich zusätzliche Details, die weitere Erkenntnisse hervorheben. Unten schließlich stehen die Maßnahmen, die auf dem Dashboard ergriffen werden müssen.
+
+#Z Pattern
+Neben dem F-Muster ist das Z-Muster eines der häufigeren Designs von Dashboards, die typischerweise erstellt werden. 
+Im Z-Muster werden die KPIs im Abschnitt "Zusammenfassung" der Seite platziert. 
+Unterhalb der KPIs befinden sich ein oder zwei Visualisierungen, die die KPIs zusammen mit zusätzlichen Informationen über sie zusammenfassen. 
+Am unteren Ende befindet sich die Liste mit den Maßnahmen, in der Regel eine Art Rohdatentabelle. 
+Dieses Muster wird als Z-Muster bezeichnet, weil das Auge von links nach rechts liest, dann nach unten zu den Visualisierungen und dann wieder von links nach rechts zu den Aktionspunkten.
+
+#Side-by-Side Pattern
+Das letzte gängige Layout ist das Side-by-Side-Layout. 
+In diesem Layout gibt es mehrere Visualisierungen, die direkt nebeneinander liegen, mit einer Aktionsliste am unteren Rand. 
+Diese Ansicht kann oben auf der Seite KPIs haben, aber wenn sie KPIs hat, die sich nicht direkt auf die Diagramme beziehen, kann sie zum Z-Muster werden. 
+Dieses Muster eignet sich am besten für den Vergleich mehrerer Metriken mit ähnlichen Gruppierungen wie Zeit oder Kategorien.
+
+#Chart Refinement
+Sobald wir unsere Diagramme erstellt haben, müssen sie wahrscheinlich noch etwas verfeinert werden. 
+Hier sind einige Tipps für die verschiedenen Arten von Diagrammen, die wir beachten sollten:
+
+##Comparison Charts
+Sortieren Sie die Kategorien immer in aufsteigender oder absteigender Reihenfolge
+Stellen Sie sicher, dass die Achse immer auf Null verankert ist.
+Verwenden Sie eine Farbe für jede Maßnahme, niemals eine Farbe pro Kategorie.
+
+##Trend charts
+Zeigen Sie nie mehr als 4 Linien in einem Trenddiagramm
+Verwenden Sie eine Doppelachse, um ähnliche Einheiten mit sehr unterschiedlichen Skalen darzustellen.
+
+##Relationship Charts
+Beginnen Sie immer bei Null für beide Achsen
+Verwenden Sie Farbe, um Ausreißer und Muster hervorzuheben.
+
+##Show Comparisons
+Stellen Sie sicher, dass es einen Kontext gibt, wenn Sie mehrere Elemente vergleichen, insbesondere wenn Sie diese im Laufe der Zeit darstellen.
+
+##Show Correlation
+Stellen Sie sicher, dass es einen Kontext gibt, wenn Sie mehrere Elemente vergleichen, insbesondere wenn Sie diese im Laufe der Zeit darstellen.
+
+##Use Multivariate Data
+Verwenden Sie so viele zusammenhängende Kategorien, wie sinnvoll sind. Der Einsatz von Farbe, Größe, Form und Position kann die Qualität der Geschichte erheblich beeinflussen.
+
+##Vollständige Integration der Modi
+Stellen Sie sicher, dass, wann immer möglich, Text, Zahlen und sogar Bilder in Visualisierungen enthalten sind.
+
+https://help.tableau.com/current/pro/desktop/en-us/annotations_annotations_add.htm
+https://www.tableau.com/about/blog/2016/2/how-use-custom-shapes-filters-your-dashboard-50200
+https://public.tableau.com/app/profile/ugleymatt/viz/SunSpotsStory/SunspotsTheWeather
+
+#Tooltips
+Tooltips sind die Textfelder, die erscheinen, wenn man den Mauszeiger über ein Diagramm bewegt. 
+Sie enthalten Informationen, die für die Benutzer im Diagramm sichtbar sein können oder auch nicht. 
+Diese Textfelder können so angepasst werden, dass sie den Benutzern schnell die nützlichsten Informationen liefern. 
+Tableau bietet einige Schritte, um dies zu erreichen:
+
+Beginnen Sie mit einer einfachen QuickInfo und ziehen Sie wichtige Informationen in das Marks Pane und wählen Sie "Tooltip" als Typ.
+Identifizieren Sie das wichtigste Element in der Liste, und geben Sie ihm den Titel der QuickInfo.
+Ändern Sie die Namen des Textes so, dass sie für den Endbenutzer intuitiver sind. 
+Ein Beispiel wäre die Änderung von "Anzahl der Datensätze" in "Anzahl der Verkäufe".
+Stellen Sie sicher, dass jede Zahl in der QuickInfo in Einheiten angegeben wird.
+https://www.tableau.com/sites/default/files/media/whitepaper_visual-analysis-guidebook_0.pdf
+
+#Single Story
+Eines der wichtigsten Dinge, die wir bei der Erstellung einer Datenstory tun können, ist vielleicht sicherzustellen, dass jede Ansicht der Daten eine einzige Geschichte erzählt. 
+Einige wichtige Punkte, die dabei zu beachten sind, sind:
+
+##Überfrachten Sie die einzelnen Ansichten nicht.
+Stellen Sie sicher, dass die Endbenutzer die Daten in jeder Visualisierung klar interpretieren können.
+##Begrenzen Sie Formen und Farben.
+Beschränken Sie die Anzahl der Farben auf maximal 7 in einer Ansicht. Wenn Sie mehr Farben benötigen, müssen Sie wahrscheinlich den Umfang der Ansicht oder die Art der Visualisierung ändern.
+##Bewährte Praktiken für Kategorien
+Liniendiagramme: Maximal 3 Linien in einem Diagramm zur gleichen Zeit
+Gestapelte Balken-/Kuchendiagramme: Begrenzung auf 5 Kategorien zur gleichen Zeit
+##Begrenzen Sie die Anzahl der Ansichten in einem Dashboard auf 3 oder 4
+Mehr als 4 Visualisierungen in einem Dashboard können zu Verwirrung führen und beginnen, mehrere Geschichten zu erzählen. 
+Es empfiehlt sich, für diese Fälle eine separate Ansicht zu erstellen.
+##Schaffung von Glaubwürdigkeit
+Stellen Sie sicher, dass die Quelle der Informationen für die Endnutzer klar dargestellt wird. 
+Andernfalls kann es schwierig sein, den Erkenntnissen aus den Daten zu vertrauen, insbesondere wenn sie aussagekräftig sind.
+##Konzentration auf den Inhalt
+Minimieren Sie unnötige Elemente im Diagramm (Text, Farben, Formen usw.), wenn sie nicht direkt zur Aussage beitragen.
