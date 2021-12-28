@@ -1,15 +1,6 @@
 Collection of human logic fallacies, problems and curiosities
 
-
-###proof by example fallacy###
-The human tendency to take a single instance of something happening and unconsciously assume it must be true in all cases. 
-It causes a lot of misunderstanding and judgment. The human mind defaults to it all the time. 
-
-###negativity bias###
-The fact that negative information gets more attention and feels more intelligent and important to us than positive attention
-
-###Loss aversion###
-Feel of giving up a object is worse than the joy of gaining it.
+###Endowment Effect###
 
 ###Hyperbolic discounting###
 "Workout tomorrow and not today"
@@ -17,18 +8,28 @@ Feel of giving up a object is worse than the joy of gaining it.
 ###Illusion of control###
 Tendency of overestimateing the influence one has.
 
+###Loss aversion###
+Feel of giving up a object is worse than the joy of gaining it.
+
+###Negativity bias###
+The fact that negative information gets more attention and feels more intelligent and important to us than positive attention
+
+###Proof by example fallacy###
+The human tendency to take a single instance of something happening and unconsciously assume it must be true in all cases. 
+It causes a lot of misunderstanding and judgment. The human mind defaults to it all the time. 
+
 ###Self-serving bias###
 
 
-###Endowment Effect###
 
 
 ###IKEA Effect###
 Disproportionaly high value for things people assembled by them selfe, for example furniture of IKEA
 
 
-
+---
 ##Fallacies of relevance
+---
 ###Ambiguity fallacy
 Using ambiguous language/terminology in premises to lead to a misleading conclusion.
 
@@ -78,3 +79,83 @@ Assumes there is a single, simple cause of an outcome.
 
 ###Slothful induction fallacy
 Ignores relevant and significant evidence when inferring to a conclusion. Similar to cherry picking but with an emphasis on neglecting information rather than selecting highlighting information to draw a misleading conclusion.
+
+---
+##Cognitive Biases
+---
+###Fundamental Attribution Error
+We judge others on their personality or fundamental character, but we judge ourselves on the situation.
+"Sally is late to class, she's lazy. You're late to class, it was a bad morning."
+
+###Self-Serving Bias
+Our failure are situational, but our success are our responsibility
+"You won that award due to hard work rather than help or luck. Meanwhile, you failed a test because you hadn't gotten enough sleep."
+
+###In-Group Favoritism
+We favor people who are in our in-group as opposed to an out-group
+"Francis is in your church, so youl like Francis more than Sally"
+
+###Bandwagon Effect
+Ideas, fads and beliefs grow as more people adopt them
+"Sally believs fidget spinners help her children. Francis does, too"
+
+###Groupthink
+Due to a desire for conformity and harmony in the group, we make irrational decisions often to minimize conflict.
+"Sally wants to go get ice cream. Francis wants to shop for T-shirts. You suggest getting t-shirts with pictures of ice cream on them"
+
+###Halo Effect
+If you see a person as having a positive trait, that positive impression will spill over into their other traits (This also works for negative traits)
+"Taylor could never be mean, she's so cute!"
+
+###Moral Luck
+Better moral standing happens due to a positive outcome, worse moral standing happens due to a negative outcome
+"X culture won X war because they were morally superior to the losers"
+
+###False Consensus
+We believe more people agree with us than is actually the case
+"Everybody thinks that!"
+
+###Curse of Knowledge
+Once we know something, we assume everyone else knows it, too.
+"Alice is a teacher and struggles to understand the perspective of her new students!
+
+###Spotlight Effect
+We overestimate how mich people are paying attention to our behavior and appearance
+"Sally is worried everyone's going to notice how lame her ice cream T-shirt is"
+
+###Availability Heuristic
+We rely on immediate examples that come to minde while making judgments
+"When tying to ecide on which store to visit, you choose the one you most recently saw an ad for"
+
+###Defensive Attribution
+As a witness who secretly fears being vulnerable to a serious mishap, we will blame the victim less and attacker more if we relate to the victim
+#Sally sat too lang at a green light because she was playing with her phone. She got rear-ended. Greg who is known to text and drive, got out and yelled at the person who smacked into her"
+
+###Just-World Hypothesis
+We tend to believe the wolrd is just, therefore we assume acts of injustice are deserved
+"Sally's purse was stolen because she was mean to Francis about the T-shirt and had bad karma"
+
+###Naive Realism
+We believe that we onserve objective reality and that other people are irrational uninformed or biased
+"I see the world as it really is - other people are dumb"
+
+###Forer Effect (aka Barnum Effect)
+We easily attribtue our personalitites to vague statements, even if they can apply to a wide range of people
+"This hroscope is so accurate!"
+
+###Dunning Kruger Effect
+The less you know the more confident you are. The more you know the less confident you are.
+"Francis confidently assures the group that theres no kelp in ice cream. They do not work in the diary industry"
+
+###Anchoring
+We rely heavily on the first piece of information introduced when making decisions
+"That's 50% off? It must be a great deal!"
+
+###Automation Bias
+We rely on automated systems, sometimes trusting too much in the automated correction of actually correct decisions.
+"Your phone auto-corrects "its" to "it's" so you assume it's right"
+
+###Google effect (aka Digital Amnesia)
+We tend to forget information that's easily looked up in search engines
+"What was the name of that actor in that funny movie? I've looked it up like eight times..."
+
